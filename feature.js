@@ -7,3 +7,5 @@ let c = "3";
 let d = a + b + c;
 console.log(d + "feature2");
 alert(d + "feature3");
+
+console.log("conflict 1")

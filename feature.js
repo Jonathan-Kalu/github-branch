@@ -8,4 +8,4 @@ let d = a + b + c;
 console.log(d + "feature2");
 alert(d + "feature3");
 
-console.log("conflict 1");
+alert("conflict 2");

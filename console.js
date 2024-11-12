@@ -1,1 +1,2 @@
-console.log("Commmit 1")
+console.log("Commmit 1");
+alert("Console 2");

@@ -1,1 +1,1 @@
-console.log("Feature 1")
+alert("Feature 1");

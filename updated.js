@@ -1,1 +1,2 @@
-console.log("Feature 6");
+
+console.log("updated feature 2")

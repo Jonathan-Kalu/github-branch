@@ -9,3 +9,6 @@ console.log(d + "feature2");
 alert(d + "feature3");
 
 alert("conflict 2");
+
+let array = ['Car', 'Fish'];
+console.log(array(0));

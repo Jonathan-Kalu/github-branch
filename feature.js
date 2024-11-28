@@ -12,3 +12,9 @@ alert("conflict 2");
 
 let array = ['Car', 'Fish'];
 console.log(array(0));
+
+function add(addition){
+    let num = 1;
+    let num2= 1;
+    console.log(num2 + num);
+};

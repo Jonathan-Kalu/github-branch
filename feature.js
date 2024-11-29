@@ -18,3 +18,10 @@ function add(addition){
     let num2= 1;
     console.log(num2 + num);
 };
+
+let x = 5;
+let y = 2;
+
+let z = -5;
+
+print(x + y - z);

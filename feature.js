@@ -25,3 +25,19 @@ let y = 2;
 let z = -5;
 
 print(x + y - z);
+
+// Function to dynamically replace product prices
+function applyFixedPrice(prices) {
+  prices.forEach((product) => {
+    // Find all elements with the corresponding data-id
+    const priceDivs = document.querySelectorAll(`[data-id="${product.id}"]`);
+    if (priceDivs.length > 0) {
+      priceDivs.forEach((priceDiv) => {
+        // Only replace price if the element is empty
+        if (!priceDiv.textContent.trim()) {
+          priceDiv.textContent = `£${product.price.toFixed(2)}`;
+        }
+      });
+    }
+  });
+}
